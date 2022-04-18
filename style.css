@@ -1,0 +1,121 @@
+/*  
+    "*" seleciona todos elemntos da pagina HTML
+*/
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #e0b400;
+    margin-left: 30%;
+}
+#subtitulo{
+    font-family: sans-serif;
+    color: #e0b400;
+    margin-left: 15%;  
+    
+}
+fieldset{
+    border: 0;
+}
+body{
+    background-color: #1c1c1c;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+input, select, textarea, button{
+    border-radius: 6px;
+}
+.campo{
+    margin-bottom: 2;
+    padding: 1px;
+}
+.campo label{
+    margin-bottom: 2;
+    color: #dddddd;
+    display: block;
+}
+.campo input[type="text"], .campo input[type="email"],.campo select, .campo textarea{
+    padding: 2px;
+    border: 1px solid #4f3e5f;
+    box-shadow: 2x, 2px, 2px #ffffff;
+}
+fieldset.grupo{
+    color: #dddddd;
+}
+.campo select option{
+    padding: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea{
+    background: #d1d1d1;
+}
+.botao{
+    font-size: 15px;
+    background-color: #e0b400;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 1px 1px 1px;
+    text-shadow: 0.2px 0.2px ;
+    position: fixed;
+    top: 77%;
+    left: 52%;
+    margin-right: -50%;
+    transform: translate(-695%, 220%);
+
+}
+.botao, select{
+    cursor: pointer;
+    padding: 8px;
+    margin-top: 35px;
+    margin-left: 220px;
+    
+}
+
+#check{
+    color: #ffffff;
+    display: inline-block
+    
+}
+section{
+    
+    background: rgb(203,0,202);
+    background: linear-gradient(170deg, rgba(203,0,202,1) 0%, rgba(126,20,225,1) 100%);
+    width: 360px;
+    height: 650px;
+    border-radius: 3%;
+    margin: auto;
+    padding: 10px;
+    transform: translate(10%, -130%);
+    
+}
+img{
+   
+    margin-left: -800px;
+    transform: translate(5%, -10% );
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #1c1c1c;
+    
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(170deg, rgba(203,0,202,1) 0%, rgba(126,20,225,1) 100%);
+    border-radius: 40px;
+}
+footer{
+    color: #d1d1d1;
+    align-items: center;
+    transform: translate(0%, -100%);
+}
+
+
+
